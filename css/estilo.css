@@ -24,8 +24,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     border: 2px solid rgba(131, 44, 153, 0.856);
 }
  #grilla{
-    background: rgb(253,29,242);
-    background: linear-gradient(90deg, rgba(253,29,242,0) 50%, rgba(135,58,180,0) 93%, rgba(252,69,240,0) 100%);
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,197,0.5088629201680672) 50%, rgba(252,69,69,1) 100%);
     height: 110vh;
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;

@@ -17,7 +17,6 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
 .logo{
     display: flex;
     text-align: center;
-    font-family: ;
     
     
 }
@@ -51,10 +50,8 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     
      display: flex;
      list-style-type: none;
-     font-family: 'Poppins', sans-serif;
      font-size: medium;
      
-
     }
     .nav ul li{
         margin: 15px;
@@ -84,7 +81,7 @@ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubun
     background: linear-gradient(0deg, rgba(195,34,187,0) 0%, rgba(193,45,253,0.8814119397759104) 100%);
     border: 1px solid rgb(7, 105, 105);
 }
- footer{
+ #footer{
      display: flex;
      text-align: end;
      justify-content: end;
@@ -110,17 +107,16 @@ background: linear-gradient(90deg, rgba(253,29,242,0) 50%, rgba(135,58,180,0) 93
         display: grid;
         grid-template-columns: 0.5fr 0.5fr;
         grid-template-rows: 300px 300px a 100px;
-        grid-gap: 0px
+        grid-gap: 0px;
         grid-template-areas: "header header" "depresion ansiedad" "fobia alimentacion" "footer footer";
         }
 @media screen and (min-width: 1200px) {
             header{
-                
             display: flex;
             align-items: center;
             justify-content: center;
             background: rgb(195,34,187);
-            background: linear-gradient(0deg, rgba(195,34,187,0) 0%, rgba(193,45,253,0.8814119397759104) 100%);;
+            background: linear-gradient(0deg, rgba(195,34,187,0) 0%, rgba(193,45,253,0.8814119397759104) 100%);
             font-size: medium;
             flex-direction: column;
             color:rgb(0, 0, 0);
@@ -157,12 +153,10 @@ background: linear-gradient(90deg, rgba(253,29,242,0) 50%, rgba(135,58,180,0) 93
             font-family: 'Poppins', sans-serif;
             font-size: medium;}
             .nav ul li{
-                text-decoration: none;
-                list-style: none;
+            text-decoration: none;
+            list-style: none;
             }
-                        
-
-             }
+                                   
 @media screen and (min-width: 768px){
              .nav{
 
@@ -185,7 +179,7 @@ background: linear-gradient(90deg, rgba(253,29,242,0) 50%, rgba(135,58,180,0) 93
             }
         
                      
- @media screen and (min-width: 768px){}
+ @media screen and (min-width: 768px){
 
              #footer{
             grid-area: footer;
@@ -193,13 +187,10 @@ background: linear-gradient(90deg, rgba(253,29,242,0) 50%, rgba(135,58,180,0) 93
             background: linear-gradient(0deg, rgba(195,34,187,0) 0%, rgba(193,45,253,0.8814119397759104) 100%);
             border: 1px solid rgb(7, 105, 105);}
 
-@media screen and (min-width: 1200px){}
+@media screen and (min-width: 1200px){
 
-
-             #footer{
-             grid-area: footer;
+    #footer{
+        grid-area: footer;
             background: rgb(195,34,187);
             background: linear-gradient(0deg, rgba(195,34,187,0) 0%, rgba(193,45,253,0.8814119397759104) 100%);
-            border: 1px solid rgb(7, 105, 105);
-                     }
-                     
+            border: 1px solid rgb(7, 105, 105);}
